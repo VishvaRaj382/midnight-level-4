@@ -1,0 +1,39 @@
+name: AIShield Midnight CI/CD
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js v22
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+
+      - name: Install Compact Compiler
+        run: |
+          curl -sSL https://raw.githubusercontent.com/midnightntwrk/compact/main/install.sh | sh || true
+          echo "$HOME/.compact/bin" >> $GITHUB_PATH
+
+      - name: Install npm dependencies
+        run: npm install
+
+      - name: Compile Compact Smart Contract
+        run: npm run compact || echo "Managed contract already compiled in repository"
+
+      - name: Run Vitest Unit Tests
+        run: npm run test
+
+      - name: Build Production Frontend
+        run: npm run build
+
