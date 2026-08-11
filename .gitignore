@@ -15,3 +15,5 @@ npm-debug.log*
 .env.local
 .vscode/
 .idea/
+tsconfig.tsbuildinfo
+
