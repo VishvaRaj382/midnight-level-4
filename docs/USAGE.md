@@ -1,10 +1,20 @@
 # How to Use AIShield
 
-Welcome to AIShield! This user guide will take you step-by-step through setting up, generating zero-knowledge authorization proofs, and connecting your private credentials to AI models without exposing sensitive data.
+> Complete step-by-step user guide for generating zero-knowledge authorization proofs, querying protected AI models, and inspecting Midnight Preprod Testnet state.
 
 ---
 
-## What You Need
+## Official Project Links
+
+- **Product X (Twitter) Profile**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight)
+- **Live Preprod Demo**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Level 6 Launch Users (20 Roster)**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
+- **Level 6 Feedback & Improvements**: [docs/FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/FEEDBACK.md)
+- **Brand Brief & Media Kit**: [docs/BRAND.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/BRAND.md)
+
+---
+
+## Prerequisites & Requirements
 
 Before getting started, make sure you have:
 1. **Midnight Lace Wallet** installed in your browser (Chrome or Brave).
@@ -14,10 +24,10 @@ Before getting started, make sure you have:
 
 ---
 
-## Step-by-Step Guide
+## Step-by-Step Usage Guide
 
 ### Step 1: Connect Your Midnight Lace Wallet
-1. Open the AIShield Web Application.
+1. Open the AIShield Web Application (`https://aishield-midnight.vercel.app` or `http://localhost:5173`).
 2. Click the **Connect Midnight Wallet** button in the top right header.
 3. Approve the connection request in your Lace Wallet popup.
 4. Verify your active network is set to **Preprod Testnet** and your `tNight` balance displays.
@@ -38,7 +48,7 @@ Choose the tier of AI model access you require:
 2. The application compiles a zero-knowledge proof locally:
    - Derives a cryptographic commitment hash from your private credentials.
    - Proves you possess valid access rights without revealing the credentials themselves.
-3. Submit the transaction to Midnight Preprod Testnet.
+3. Submit the transaction to Midnight Preprod Testnet contract (`0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`).
 4. Once confirmed, your on-chain state will transition to **VERIFIED** with your requested access tier.
 
 ### Step 5: Test the Live AI Model Guard Interceptor
