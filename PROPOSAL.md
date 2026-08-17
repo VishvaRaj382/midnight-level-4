@@ -1,4 +1,4 @@
-# Product Proposal
+# Product Proposal — AIShield
 
 ## What is the product, and who uses it?
 
@@ -29,6 +29,16 @@ Traditional blockchains expose transaction and identity information publicly, ma
 | API Token / Email / Secret  | Private Witness | No one              |
 | Proof of Authorization      | Private Witness | Smart Contract Only |
 
-## Mainnet Feasibility
+## Mainnet & Preprod Feasibility (Level 6 Achieved)
 
-Yes. The smart contract for confidential identity verification and access control is realistic to complete by Level 6. The core functionality, including private credential verification and secure access management, can be implemented using Midnight's privacy features. Additional enhancements such as a web dashboard, enterprise integrations, multi-factor authentication, and AI service connectivity can be developed after the core blockchain infrastructure is complete.
+Yes. The smart contract for confidential identity verification and access control is fully deployed on the **Midnight Preprod Testnet** (`0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`). Core zero-knowledge proof verification, multi-tier authorization, and AI guard interceptor integration are active and tested by 20 Level 6 launch users.
+
+---
+
+## Official Level 6 Assets
+
+- **Product X (Twitter)**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight)
+- **Live Preprod Demo**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Level 6 Launch Users**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
+- **Level 6 Feedback Matrix**: [docs/FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/FEEDBACK.md)
+- **Brand Brief & Guidelines**: [docs/BRAND.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/BRAND.md)
