@@ -1,5 +1,5 @@
 import React from 'react';
-import { Shield, Lock, Terminal, Github, ExternalLink, Cpu } from 'lucide-react';
+import { Shield, ExternalLink, Twitter } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -20,7 +20,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, headerRight }) => {
             </div>
             <div>
               <span className="font-extrabold text-xl tracking-tight text-white flex items-center gap-1.5">
-                AIShield <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">Midnight ZK</span>
+                AIShield <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">Level 6 Preprod</span>
               </span>
               <p className="text-[11px] text-slate-400 hidden sm:block">
                 Confidential Identity Verification for AI Models
@@ -28,7 +28,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, headerRight }) => {
             </div>
           </div>
 
-          {headerRight && <div>{headerRight}</div>}
+          <div className="flex items-center gap-4">
+            <a
+              href="https://x.com/AIShieldMidnight"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hidden md:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 hover:border-cyan-500/40 text-slate-300 hover:text-cyan-400 text-xs font-semibold transition-all"
+            >
+              <Twitter className="w-3.5 h-3.5 text-cyan-400" />
+              <span>@AIShieldMidnight</span>
+            </a>
+
+            {headerRight && <div>{headerRight}</div>}
+          </div>
         </div>
       </header>
 
@@ -42,10 +54,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, headerRight }) => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <Shield className="w-4 h-4 text-cyan-400" />
-            <span>Built for Midnight Builder Challenge — Level 4</span>
+            <span>Built for Midnight Builder Challenge — Level 6 Preprod Launch</span>
           </div>
 
           <div className="flex items-center gap-6 text-slate-400">
+            <a
+              href="https://x.com/AIShieldMidnight"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-cyan-400 flex items-center gap-1 transition-colors"
+            >
+              <span>Product X</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
             <a
               href="https://midnight.network"
               target="_blank"
