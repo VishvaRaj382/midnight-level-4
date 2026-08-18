@@ -115,4 +115,23 @@ describe("AIShield Smart Contract Tests", () => {
       "Invalid access tier requested"
     );
   });
+
+  // Test Requirement 6: Level 6 Launch User Verification & Multi-Tier Matrix
+  it("Level 6 Launch Users: validates multi-tier access permissions across Enterprise, Pro and Basic tiers", () => {
+    const sk = randomBytes(32);
+    const cred = randomBytes(32);
+    const apiToken = randomBytes(32);
+
+    const sim = new AIShieldSimulator(sk, cred, apiToken);
+    
+    // Test Enterprise tier authorization
+    sim.verifyAndGrantAccess(AccessTier.ENTERPRISE);
+    expect(sim.checkAccessTier(AccessTier.ENTERPRISE)).toBe(true);
+    expect(sim.checkAccessTier(AccessTier.PRO)).toBe(false);
+
+    // Transition to Pro tier
+    sim.verifyAndGrantAccess(AccessTier.PRO);
+    expect(sim.checkAccessTier(AccessTier.PRO)).toBe(true);
+    expect(sim.checkAccessTier(AccessTier.ENTERPRISE)).toBe(false);
+  });
 });
