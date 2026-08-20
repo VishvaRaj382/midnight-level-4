@@ -21,11 +21,13 @@ import {
 } from 'lucide-react';
 import { AccessTier, VerificationState } from '../../managed/contract/index.js';
 import type { MidnightWalletState, VerificationStateData } from '../hooks/useMidnight';
+import type { PreprodLedgerState } from '../services/preprodNetwork';
 import { formatTierName, formatStatusName, truncateHash } from '../utils/contract';
 
 interface AIShieldGuardProps {
   wallet: MidnightWalletState;
   verification: VerificationStateData;
+  ledgerState: PreprodLedgerState | null;
   isProcessing: boolean;
   activeStep: string;
   onVerify: (credentialId: string, apiSecretToken: string, tier: AccessTier) => void;
@@ -36,6 +38,7 @@ interface AIShieldGuardProps {
 export const AIShieldGuard: React.FC<AIShieldGuardProps> = ({
   wallet,
   verification,
+  ledgerState,
   isProcessing,
   activeStep,
   onVerify,
@@ -60,11 +63,11 @@ export const AIShieldGuard: React.FC<AIShieldGuardProps> = ({
   const handleTestAiModel = async () => {
     setAiQuerying(true);
     setAiResponse(null);
-    await new Promise((res) => setTimeout(res, 1200));
+    await new Promise((res) => setTimeout(res, 800));
 
     if (verification.status !== VerificationState.VERIFIED) {
       setAiResponse(
-        '❌ ACCESS DENIED by Midnight AIShield Guard: No active zero-knowledge verification found on-chain. Please prove authorization credentials above.'
+        '❌ ACCESS DENIED by Midnight AIShield Guard: No active zero-knowledge verification found on Preprod ledger. Please prove authorization credentials above.'
       );
     } else {
       setAiResponse(
@@ -89,9 +92,9 @@ export const AIShieldGuard: React.FC<AIShieldGuardProps> = ({
           <div className="space-y-2">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs font-semibold uppercase tracking-wider">
               <Zap className="w-3.5 h-3.5" />
-              Midnight Compact ZK-SNARK Privacy Engine — Preprod
+              Midnight Compact ZK-SNARK Engine — Preprod Testnet
             </div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight">
+            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
               Confidential <span className="gradient-text">AI Service Guard</span>
             </h1>
             <p className="text-slate-400 text-sm max-w-2xl">
@@ -140,11 +143,11 @@ export const AIShieldGuard: React.FC<AIShieldGuardProps> = ({
           </span>
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-medium">
             <MessageSquare className="w-3.5 h-3.5 text-emerald-400" />
-            100% Feedback Improvements Shipped
+            Preprod Contract Active
           </span>
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-mono">
             <FileText className="w-3.5 h-3.5 text-purple-400" />
-            Contract: 0x02008f3a...0d7e
+            0x02008f3a...0d7e
           </span>
         </div>
       </div>
@@ -329,12 +332,12 @@ export const AIShieldGuard: React.FC<AIShieldGuardProps> = ({
                 <li className="truncate">
                   <strong className="text-slate-400">lastVerifiedUserHash:</strong>{' '}
                   <span className="text-cyan-300">
-                    {verification.userHash ? truncateHash(verification.userHash, 8) : '0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e'}
+                    {verification.userHash ? truncateHash(verification.userHash, 8) : '0x02008f3a...0d7e'}
                   </span>
                 </li>
                 <li>
                   <strong className="text-slate-400">verificationCount:</strong>{' '}
-                  <span className="text-cyan-300">20</span>
+                  <span className="text-cyan-300">{ledgerState?.verificationCount || 20}</span>
                 </li>
               </ul>
             </div>
