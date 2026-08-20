@@ -20,6 +20,20 @@
 
 ---
 
+## 🎬 Live Interactive Video Demo Showcase
+
+AIShield features a built-in **Interactive Video Demo Showcase** directly inside the web application:
+
+👉 **Experience Demo Walkthrough**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app) *(Click on the **Video Demo Showcase** tab)*
+
+### Video Walkthrough Highlights:
+1. **Lace Wallet Connection**: Establishes connection via `window.midnight.mnLace` DApp connector.
+2. **Off-Chain ZK Witness Proving**: Compact 0.23 circuit (`verifyAndGrantAccess`) proves identity eligibility off-chain with 0 data disclosure.
+3. **Preprod On-Chain Verification**: Discloses cryptographic commitment to smart contract `0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`.
+4. **AI Gateway Interceptor**: Real-time protected AI model prompt interceptor verifying ZK proof before outputting model results.
+
+---
+
 ## ⚡ Verified Preprod Smart Contract Deployment
 
 > **MANDATORY CONTRACT VERIFICATION**
