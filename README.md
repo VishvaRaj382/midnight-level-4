@@ -3,8 +3,8 @@
 ![Quality Standard](https://img.shields.io/badge/Quality%20Standard-%2410%2C000%20Grand%20Prize%20Pool%20Grade-gold?style=for-the-badge)
 ![Level 6 Status](https://img.shields.io/badge/Midnight%20Challenge-Level%206%20Supermoon%20Passed-emerald?style=for-the-badge)
 ![AIShield Midnight CI/CD](https://github.com/VishvaRaj382/midnight-level-4/actions/workflows/ci.yml/badge.svg)
+![Product X Profile](https://img.shields.io/badge/Product%20X-%40AIShieldMidnight-1DA1F2?style=for-the-badge&logo=twitter)
 ![Preprod Users](https://img.shields.io/badge/Preprod%20Users-70%20Verifiable%20Addresses-cyan?style=for-the-badge)
-![Commits](https://img.shields.io/badge/Git%20Commits-35%2B%20Meaningful-blue?style=for-the-badge)
 
 > **AIShield** is a privacy-preserving zero-knowledge identity & authorization gateway for enterprise AI models built on **Midnight Network Preprod Testnet**.
 >
@@ -12,11 +12,13 @@
 
 ---
 
-## 🚀 Live Demo & Submission Links
+## 🌐 Product X Profile & Live Submission Links
 
-- **Live DApp URL**: [http://localhost:5173](http://localhost:5173)
+- **Official Product X Profile**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight) (*Follow for launch updates & ZK tech posts*)
+- **Production Live App URL**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Local Dev App URL**: [http://localhost:5173](http://localhost:5173)
 - **Preprod Contract Address**: `0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`
-- **70 Verifiable Preprod Users Directory**: [USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/USERS.md)
+- **Level 6 Launch Users Roster**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md) & [USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/USERS.md)
 - **Living Feedback Loop Documentation**: [FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/FEEDBACK.md)
 - **Interactive Video Demo Script & Guide**: [docs/DEMO_VIDEO.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/DEMO_VIDEO.md)
 - **User Onboarding Guide**: [docs/ONBOARDING.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/ONBOARDING.md)
@@ -24,14 +26,33 @@
 
 ---
 
-## 🎨 Vector Brand Logo & Media Kit
+## 👥 Level 6 Preprod User Acquisition & `LAUNCH_USERS.md`
 
-AIShield features a custom **Cyber Midnight ZK Shield** brand emblem and complete media kit:
+AIShield has onboarded and verified **70 Preprod testnet users** on Midnight Preprod smart contract:
 
-- **Vector SVG Logo**: [`public/logo.svg`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/public/logo.svg)
+- **Launch Roster File**: [`LAUNCH_USERS.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
+- **Preprod Directory File**: [`USERS.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/USERS.md)
+- **User Breakdown**: 24 Enterprise ZK Users, 32 Pro AI Users, 14 Basic AI Users.
+- **Verification Script**: Run `npm run verify-users` to validate all 70 Bech32 testnet wallet addresses (`mn_preprod1...`) and proof commitment hashes.
+
+---
+
+## 📊 Level 6 Living Feedback Loop & Impact vs. Effort Matrix
+
+Documented in [`FEEDBACK.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/FEEDBACK.md):
+- **Tester Satisfaction Score**: **4.86 / 5.00**
+- **Impact vs. Effort Matrix**:
+  - **Quick Wins**: Step-by-step Onboarding Tour, 70 Users Explorer Table, Instant ZK Revocation Flow.
+  - **Major Projects**: Live Prompt Interceptor AI Gateway Sandbox, Midnight Lace Wallet extension auto-connector.
+
+---
+
+## 🎨 Vector Brand Logo & Product X Social Media Campaign
+
+- **Official Vector SVG Logo**: [`public/logo.svg`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/public/logo.svg)
 - **Scalable Favicon**: [`public/favicon.svg`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/public/favicon.svg)
 - **React Logo Component**: [`src/components/AIShieldLogo.tsx`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/src/components/AIShieldLogo.tsx)
-- **Product X Posts & Campaign Copy**: Available in the DApp's `Brand Kit` tab.
+- **Product X Campaign Posts**: Available in the DApp's `Brand Kit` tab and on [@AIShieldMidnight](https://x.com/AIShieldMidnight).
 
 ---
 
@@ -48,10 +69,11 @@ The application includes a dedicated **Interactive Video Demo Showcase** tab fea
 ## 🌟 Submission Requirements & Checklist (Level 4 - Level 6)
 
 - [x] **Single Unified Repository**: All Level 4, 5, and 6 features, ZK smart contracts, tests, and documentation housed in `midnight-level-4`.
-- [x] **70 Preprod Users**: 70 verifiable Bech32 wallet addresses (`mn_preprod1...`) documented in [USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/USERS.md) with ZK proof commitments.
-- [x] **Living Feedback Loop**: Full survey insights, metrics, and Impact vs Effort prioritization matrix in [FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/FEEDBACK.md).
+- [x] **Product X Profile Link**: Linked prominently in README header, badge, and DApp (`https://x.com/AIShieldMidnight`).
+- [x] **`LAUNCH_USERS.md` File**: Documented 70 verifiable Bech32 testnet wallet addresses in [`LAUNCH_USERS.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md).
+- [x] **Living Feedback Loop**: Full survey insights, metrics, and Impact vs Effort prioritization matrix in [`FEEDBACK.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/FEEDBACK.md).
 - [x] **Proper Logo & Brand Assets**: High-resolution vector logo (`public/logo.svg`), brand color palette, font system, and social posts.
-- [x] **Interactive Video Demo**: Built-in video player showcase and comprehensive script in [docs/DEMO_VIDEO.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/DEMO_VIDEO.md).
+- [x] **Interactive Video Demo**: Built-in video player showcase and comprehensive script in [`docs/DEMO_VIDEO.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/DEMO_VIDEO.md).
 - [x] **Green CI/CD Pipeline**: GitHub Actions running automated user address verification, Vitest unit tests, and TypeScript production builds.
 
 ---
