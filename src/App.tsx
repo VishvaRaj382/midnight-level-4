@@ -5,6 +5,7 @@ import { AIShieldGuard } from './components/AIShieldGuard';
 import { VideoDemoPlayer } from './components/VideoDemoPlayer';
 import { LedgerInspector } from './components/LedgerInspector';
 import { UserRegistryView } from './components/UserRegistryView';
+import { FeedbackDashboard } from './components/FeedbackDashboard';
 import { BrandKitView } from './components/BrandKitView';
 import { useMidnight } from './hooks/useMidnight';
 
@@ -50,7 +51,7 @@ export function App() {
 
       {activeTab === 'demo' && <VideoDemoPlayer />}
 
-      {activeTab === 'ledger' && <LedgerInspector ledgerState={ledgerState} />}
+      {activeTab === 'feedback' && <FeedbackDashboard />}
 
       {activeTab === 'users' && <UserRegistryView />}
 

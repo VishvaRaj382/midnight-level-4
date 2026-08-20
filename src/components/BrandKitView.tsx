@@ -1,5 +1,6 @@
 import React from 'react';
 import { Sparkles, Twitter, ExternalLink, Shield, Palette, Copy, Check } from 'lucide-react';
+import { AIShieldLogo } from './AIShieldLogo';
 
 export const BrandKitView: React.FC = () => {
   const [copiedIndex, setCopiedIndex] = React.useState<number | null>(null);
@@ -75,17 +76,7 @@ Zero data leakage for AI users! 🚀`,
           </h3>
 
           <div className="bg-slate-950 p-8 rounded-xl border border-slate-800 flex items-center justify-center min-h-[180px]">
-            <div className="flex items-center gap-4">
-              <img src="/logo.svg" alt="AIShield Logo" className="w-16 h-16 drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]" />
-              <div>
-                <div className="text-3xl font-extrabold tracking-tight text-white">
-                  AIShield <span className="text-xs px-2 py-0.5 rounded-full bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">v1.0</span>
-                </div>
-                <div className="text-xs text-slate-400 mt-1">
-                  Confidential AI Identity & Access Guard
-                </div>
-              </div>
-            </div>
+            <AIShieldLogo size="xl" showText={true} />
           </div>
         </div>
 

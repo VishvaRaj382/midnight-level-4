@@ -31,6 +31,9 @@ jobs:
       - name: Compile Compact Smart Contract
         run: npm run compact || echo "Managed contract already compiled in repository"
 
+      - name: Run 70 Preprod User Address Verification
+        run: npm run verify-users
+
       - name: Run Vitest Unit Tests
         run: npm run test
 

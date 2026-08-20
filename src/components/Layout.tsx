@@ -15,11 +15,11 @@ export const Layout: React.FC<LayoutProps> = ({
   onTabChange,
 }) => {
   const tabs = [
-    { id: 'guard', label: 'ZK Guard & Prover' },
-    { id: 'demo', label: 'Video Demo Showcase' },
-    { id: 'ledger', label: 'Preprod Ledger Inspector' },
-    { id: 'users', label: 'Launch User Directory' },
-    { id: 'brand', label: 'Brand Kit & X Posts' },
+    { id: 'guard', label: '🛡️ ZK Guard & Prover' },
+    { id: 'demo', label: '🎥 Video Demo Showcase' },
+    { id: 'feedback', label: '📊 Living Feedback Loop' },
+    { id: 'users', label: '👥 70 Preprod User Directory' },
+    { id: 'brand', label: '🎨 Brand Kit & Vector Logo' },
   ];
 
   return (
