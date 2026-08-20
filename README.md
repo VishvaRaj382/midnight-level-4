@@ -11,7 +11,8 @@
 ## 🌐 Official Links & Product X Profile
 
 - **Product X (Twitter) Profile**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight)
-- **Live Preprod Web Application**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Live Preprod Application (Vercel)**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Live Preprod Application (GitHub Pages Mirror)**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **Level 6 Launch Users (20 Roster)**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
 - **Preprod Beta User Roster (70 Users)**: [USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/USERS.md)
 - **Level 6 Feedback & Commit Traceability**: [docs/FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/FEEDBACK.md)
