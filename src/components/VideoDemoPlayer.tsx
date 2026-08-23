@@ -78,7 +78,7 @@ export const VideoDemoPlayer: React.FC = () => {
 
           <div className="flex flex-wrap items-center gap-2">
             <a
-              href="https://drive.google.com/file/d/1VkyFqmv5Pd0WtWh497cRJkcNAWQsoe84/view?usp=share_link"
+              href="https://drive.google.com/file/d/1L86Haxqy2QMLckvpg8WGod2OQl_-uGaK/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary py-2 px-4 text-xs inline-flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-purple-600 border-none text-white shadow-lg shadow-cyan-500/20"
