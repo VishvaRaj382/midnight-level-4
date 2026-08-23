@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExternalLink, Twitter, ShieldCheck } from 'lucide-react';
+import { AIShieldLogo } from './AIShieldLogo.js';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -30,9 +31,7 @@ export const Layout: React.FC<LayoutProps> = ({
           <div className="h-20 flex items-center justify-between gap-4">
             {/* Logo & Brand Title */}
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-slate-900 border border-cyan-500/40 p-1.5 flex items-center justify-center shadow-lg shadow-cyan-500/20">
-                <img src="/logo.svg" alt="AIShield Logo" className="w-full h-full" />
-              </div>
+              <AIShieldLogo size="md" showText={false} />
               <div>
                 <span className="font-extrabold text-xl tracking-tight text-white flex items-center gap-2">
                   AIShield

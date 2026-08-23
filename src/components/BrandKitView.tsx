@@ -15,7 +15,7 @@ AIShield enables users to prove identity & API authorization rights for enterpri
 Raw credentials & secrets NEVER leave your device.
 
 📍 Contract: 0x02008f3a...0d7e
-🌐 Demo: https://aishield-midnight.vercel.app
+🌐 Demo: https://vishvaraj382.github.io/midnight-level-4/
 
 #MidnightNetwork #Privacy #ZeroKnowledge #Cardano`,
     },

@@ -42,7 +42,7 @@
 > 
 > Test out the AIShield live demo running on Midnight Preprod Testnet! Connect your Lace Wallet, generate a ZK proof, and query protected enterprise AI models.
 > 
-> 🌐 Try Live Demo: https://aishield-midnight.vercel.app
+> 🌐 Try Live Demo: https://vishvaraj382.github.io/midnight-level-4/
 > 📋 Level 6 Launch Roster: https://github.com/VishvaRajSingh/midnight-level-4/blob/main/LAUNCH_USERS.md
 > 
 > #MidnightNetwork #Preprod #BuilderChallenge #Web3

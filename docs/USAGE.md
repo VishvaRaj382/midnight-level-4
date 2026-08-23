@@ -7,7 +7,7 @@
 ## Official Project Links
 
 - **Product X (Twitter) Profile**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight)
-- **Live Preprod Demo**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Live Preprod Demo**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **Level 6 Launch Users (20 Roster)**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
 - **Level 6 Feedback & Improvements**: [docs/FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/FEEDBACK.md)
 - **Brand Brief & Media Kit**: [docs/BRAND.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/BRAND.md)
@@ -27,7 +27,7 @@ Before getting started, make sure you have:
 ## Step-by-Step Usage Guide
 
 ### Step 1: Connect Your Midnight Lace Wallet
-1. Open the AIShield Web Application (`https://aishield-midnight.vercel.app` or `http://localhost:5173`).
+1. Open the AIShield Web Application (`https://vishvaraj382.github.io/midnight-level-4/` or `http://localhost:5173`).
 2. Click the **Connect Midnight Wallet** button in the top right header.
 3. Approve the connection request in your Lace Wallet popup.
 4. Verify your active network is set to **Preprod Testnet** and your `tNight` balance displays.

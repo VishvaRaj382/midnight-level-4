@@ -38,7 +38,8 @@ Yes. The smart contract for confidential identity verification and access contro
 ## Official Level 6 Assets
 
 - **Product X (Twitter)**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight)
-- **Live Preprod Demo**: [https://aishield-midnight.vercel.app](https://aishield-midnight.vercel.app)
+- **Live Preprod Demo**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
+- **Demo Video Recording**: [Google Drive Video Demo](https://drive.google.com/file/d/1VkyFqmv5Pd0WtWh497cRJkcNAWQsoe84/view?usp=share_link)
 - **Level 6 Launch Users**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
 - **Level 6 Feedback Matrix**: [docs/FEEDBACK.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/FEEDBACK.md)
 - **Brand Brief & Guidelines**: [docs/BRAND.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/BRAND.md)

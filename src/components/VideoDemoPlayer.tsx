@@ -76,14 +76,23 @@ export const VideoDemoPlayer: React.FC = () => {
             </p>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
+            <a
+              href="https://drive.google.com/file/d/1VkyFqmv5Pd0WtWh497cRJkcNAWQsoe84/view?usp=share_link"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary py-2 px-4 text-xs inline-flex items-center gap-1.5 bg-gradient-to-r from-cyan-500 to-purple-600 border-none text-white shadow-lg shadow-cyan-500/20"
+            >
+              <span>Watch Full Video Demo</span>
+              <ExternalLink className="w-3.5 h-3.5" />
+            </a>
             <a
               href="https://x.com/AIShieldMidnight"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary py-2 px-4 text-xs inline-flex items-center gap-1.5"
+              className="glass-panel py-2 px-4 text-xs inline-flex items-center gap-1.5 text-slate-300 hover:text-cyan-400 border-slate-800"
             >
-              <span>View Product X Demo Post</span>
+              <span>Product X Post</span>
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
           </div>
