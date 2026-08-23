@@ -16,7 +16,7 @@
 
 - **Official Product X Profile**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight) (*Follow for launch updates & ZK tech posts*)
 - **Production Live App URL**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
-- **Official Demo Video URL**: [Google Drive Video Recording](https://drive.google.com/file/d/1VkyFqmv5Pd0WtWh497cRJkcNAWQsoe84/view?usp=share_link)
+- **Official Demo Video URL**: [Google Drive Video Recording](https://drive.google.com/file/d/1L86Haxqy2QMLckvpg8WGod2OQl_-uGaK/view?usp=share_link)
 - **Local Dev App URL**: [http://localhost:5173](http://localhost:5173)
 - **Preprod Contract Address**: `0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`
 - **Level 6 Launch Users Roster**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md) & [USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/USERS.md)
