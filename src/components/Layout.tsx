@@ -48,13 +48,13 @@ export const Layout: React.FC<LayoutProps> = ({
             {/* Right Action Bar */}
             <div className="flex items-center gap-3">
               <a
-                href="https://x.com/AIShieldMidnight"
+                href="https://x.com/vishwa_raj98207"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 border border-slate-800 hover:border-cyan-500/40 text-slate-300 hover:text-cyan-400 text-xs font-semibold transition-all"
               >
                 <Twitter className="w-3.5 h-3.5 text-cyan-400" />
-                <span>@AIShieldMidnight</span>
+                <span>@vishwa_raj98207</span>
               </a>
 
               {headerRight && <div>{headerRight}</div>}
@@ -97,7 +97,7 @@ export const Layout: React.FC<LayoutProps> = ({
 
           <div className="flex items-center gap-6 text-slate-400">
             <a
-              href="https://x.com/AIShieldMidnight"
+              href="https://x.com/vishwa_raj98207"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-cyan-400 flex items-center gap-1 transition-colors"

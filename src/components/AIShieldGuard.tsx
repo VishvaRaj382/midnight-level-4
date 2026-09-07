@@ -129,13 +129,13 @@ export const AIShieldGuard: React.FC<AIShieldGuardProps> = ({
         {/* Level 6 Preprod Verified Quick Toolbar */}
         <div className="mt-6 pt-6 border-t border-slate-800/80 flex flex-wrap items-center gap-3 text-xs">
           <a
-            href="https://x.com/AIShieldMidnight"
+            href="https://x.com/vishwa_raj98207"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-950/50 border border-cyan-800/40 text-cyan-300 hover:text-cyan-200 hover:border-cyan-500/60 transition-all font-medium"
           >
             <Twitter className="w-3.5 h-3.5" />
-            Product X (@AIShieldMidnight)
+            Product X (@vishwa_raj98207)
           </a>
           <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 font-medium">
             <Users className="w-3.5 h-3.5 text-cyan-400" />

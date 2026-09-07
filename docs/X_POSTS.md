@@ -6,7 +6,7 @@
 
 ## Product X Profile Link
 
-- **Official Product X Profile**: [https://x.com/AIShieldMidnight](https://x.com/AIShieldMidnight)
+- **Official Product X Profile**: [https://x.com/vishwa_raj98207](https://x.com/vishwa_raj98207)
 
 ---
 
@@ -17,7 +17,7 @@
 > 
 > Prove you hold valid credentials & API access rights for enterprise AI models without EVER exposing your government ID or secret API keys on-chain.
 > 
-> 🌐 Product X: https://x.com/AIShieldMidnight
+> 🌐 Product X: https://x.com/vishwa_raj98207
 > ⚡ Preprod Contract: 0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e
 > 
 > #MidnightNetwork #ZeroKnowledge #Web3AI #Privacy #Crypto
