@@ -7,7 +7,7 @@ This document provides the full scene-by-scene demo video recording script, voic
 ## 🎬 Video Overview
 
 - **Title**: AIShield — Confidential AI Identity & Access Control on Midnight Preprod
-- **Official Recording Link**: [Google Drive Video Demo](https://drive.google.com/file/d/1L86Haxqy2QMLckvpg8WGod2OQl_-uGaK/view?usp=sharing)
+- **Official Recording Link**: [Google Drive Video Demo](https://drive.google.com/file/d/1h3ULhBY5F2tK_Q0WEALzYY8S2zA8wPr2/view?usp=sharing)
 - **Duration**: 2 minutes (120 seconds)
 - **Target Audience**: Midnight Hackathon Judges & Developers
 - **Key Message**: AIShield proves authorization rights for enterprise AI models using Zero-Knowledge proofs without ever leaking credentials or secrets on-chain.
