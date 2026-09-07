@@ -3,7 +3,7 @@
 ![Quality Standard](https://img.shields.io/badge/Quality%20Standard-%2410%2C000%20Grand%20Prize%20Pool%20Grade-gold?style=for-the-badge)
 ![Level 6 Status](https://img.shields.io/badge/Midnight%20Challenge-Level%206%20Supermoon%20Passed-emerald?style=for-the-badge)
 ![AIShield Midnight CI/CD](https://github.com/VishvaRaj382/midnight-level-4/actions/workflows/ci.yml/badge.svg)
-![Product X Profile](https://img.shields.io/badge/Product%20X-%40vishwa__raj98207-1DA1F2?style=for-the-badge&logo=twitter)
+![Product X Profile](https://img.shields.io/badge/Product%20X-%40vishva__raj98207-1DA1F2?style=for-the-badge&logo=twitter)
 ![Preprod Users](https://img.shields.io/badge/Preprod%20Users-70%20Verifiable%20Addresses-cyan?style=for-the-badge)
 
 > **AIShield** is a privacy-preserving zero-knowledge identity & authorization gateway for enterprise AI models built on **Midnight Network Preprod Testnet**.
@@ -14,7 +14,7 @@
 
 ## 🌐 Product X Profile & Live Submission Links
 
-- **Official Product X Profile**: [https://x.com/vishwa_raj98207](https://x.com/vishwa_raj98207) (*Follow for launch updates & ZK tech posts*)
+- **Official Product X Profile**: [https://x.com/vishva_raj98207](https://x.com/vishva_raj98207) (*Follow for launch updates & ZK tech posts*)
 - **Production Live App URL**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **Official Demo Video URL**: [Google Drive Video Recording](https://drive.google.com/file/d/1L86Haxqy2QMLckvpg8WGod2OQl_-uGaK/view?usp=sharing)
 - **Local Dev App URL**: [http://localhost:5173](http://localhost:5173)
@@ -53,7 +53,7 @@ Documented in [`FEEDBACK.md`](file:///Users/VishwaRajSingh/Developer/midnight/mi
 - **Official Vector SVG Logo**: [`public/logo.svg`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/public/logo.svg)
 - **Scalable Favicon**: [`public/favicon.svg`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/public/favicon.svg)
 - **React Logo Component**: [`src/components/AIShieldLogo.tsx`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/src/components/AIShieldLogo.tsx)
-- **Product X Campaign Posts**: Available in the DApp's `Brand Kit` tab and on [@vishwa_raj98207](https://x.com/vishwa_raj98207).
+- **Product X Campaign Posts**: Available in the DApp's `Brand Kit` tab and on [@vishva_raj98207](https://x.com/vishva_raj98207).
 
 ---
 
@@ -70,7 +70,7 @@ The application includes a dedicated **Interactive Video Demo Showcase** tab fea
 ## 🌟 Submission Requirements & Checklist (Level 4 - Level 6)
 
 - [x] **Single Unified Repository**: All Level 4, 5, and 6 features, ZK smart contracts, tests, and documentation housed in `midnight-level-4`.
-- [x] **Product X Profile Link**: Linked prominently in README header, badge, and DApp (`https://x.com/vishwa_raj98207`).
+- [x] **Product X Profile Link**: Linked prominently in README header, badge, and DApp (`https://x.com/vishva_raj98207`).
 - [x] **`LAUNCH_USERS.md` File**: Documented 70 verifiable Bech32 testnet wallet addresses in [`LAUNCH_USERS.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md).
 - [x] **Living Feedback Loop**: Full survey insights, metrics, and Impact vs Effort prioritization matrix in [`FEEDBACK.md`](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/FEEDBACK.md).
 - [x] **Proper Logo & Brand Assets**: High-resolution vector logo (`public/logo.svg`), brand color palette, font system, and social posts.

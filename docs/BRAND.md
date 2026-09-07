@@ -6,7 +6,7 @@
 
 ## Official Links
 
-- **Product X (Twitter) Profile**: [https://x.com/vishwa_raj98207](https://x.com/vishwa_raj98207)
+- **Product X (Twitter) Profile**: [https://x.com/vishva_raj98207](https://x.com/vishva_raj98207)
 - **Live Preprod Demo**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **GitHub Repository**: [https://github.com/VishvaRajSingh/midnight-level-4](https://github.com/VishvaRajSingh/midnight-level-4)
 - **Official Tweets**: [docs/X_POSTS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/docs/X_POSTS.md)
@@ -53,7 +53,7 @@
 
 ## Product X Campaign & Social Media
 
-The official Product X account **[@vishwa_raj98207](https://x.com/vishwa_raj98207)** maintains active community engagement:
+The official Product X account **[@vishva_raj98207](https://x.com/vishva_raj98207)** maintains active community engagement:
 
 ```html
 <div style="display: flex; align-items: center; gap: 8px; font-family: Inter, sans-serif; font-weight: 800;">
@@ -69,7 +69,7 @@ The official Product X account **[@vishwa_raj98207](https://x.com/vishwa_raj9820
 
 ## Social Media Media Kit (X / Twitter)
 
-The official Product X account **[@vishwa_raj98207](https://x.com/vishwa_raj98207)** maintains active community engagement:
+The official Product X account **[@vishva_raj98207](https://x.com/vishva_raj98207)** maintains active community engagement:
 
 - **Launch Announcement**: Introducing AIShield ZK Privacy Guard for AI
 - **Technical Deep Dive**: Compact ZK-SNARK circuit breakdown on Midnight Preprod

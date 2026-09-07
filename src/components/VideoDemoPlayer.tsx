@@ -87,7 +87,7 @@ export const VideoDemoPlayer: React.FC = () => {
               <ExternalLink className="w-3.5 h-3.5" />
             </a>
             <a
-              href="https://x.com/vishwa_raj98207"
+              href="https://x.com/vishva_raj98207"
               target="_blank"
               rel="noopener noreferrer"
               className="glass-panel py-2 px-4 text-xs inline-flex items-center gap-1.5 text-slate-300 hover:text-cyan-400 border-slate-800"

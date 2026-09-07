@@ -55,13 +55,13 @@ Zero data leakage for AI users! 🚀`,
           </div>
 
           <a
-            href="https://x.com/vishwa_raj98207"
+            href="https://x.com/vishva_raj98207"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary py-2 px-4 text-xs inline-flex items-center gap-1.5"
           >
             <Twitter className="w-3.5 h-3.5" />
-            <span>@vishwa_raj98207</span>
+            <span>@vishva_raj98207</span>
           </a>
         </div>
       </div>

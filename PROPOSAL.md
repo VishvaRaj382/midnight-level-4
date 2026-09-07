@@ -37,7 +37,7 @@ Yes. The smart contract for confidential identity verification and access contro
 
 ## Official Level 6 Assets
 
-- **Product X (Twitter)**: [https://x.com/vishwa_raj98207](https://x.com/vishwa_raj98207)
+- **Product X (Twitter)**: [https://x.com/vishva_raj98207](https://x.com/vishva_raj98207)
 - **Live Preprod Demo**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **Demo Video Recording**: [Google Drive Video Demo](https://drive.google.com/file/d/1L86Haxqy2QMLckvpg8WGod2OQl_-uGaK/view?usp=sharing)
 - **Level 6 Launch Users**: [LAUNCH_USERS.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/LAUNCH_USERS.md)
