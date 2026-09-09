@@ -1,6 +1,7 @@
 # AIShield — Midnight Preprod ZK Identity & Access Platform
 
 ![Quality Standard](https://img.shields.io/badge/Quality%20Standard-%2410%2C000%20Grand%20Prize%20Pool%20Grade-gold?style=for-the-badge)
+![September 2026 Challenge](https://img.shields.io/badge/Midnight%20Challenge-September%202026%20Active-purple?style=for-the-badge)
 ![Level 6 Status](https://img.shields.io/badge/Midnight%20Challenge-Level%206%20Supermoon%20Passed-emerald?style=for-the-badge)
 ![AIShield Midnight CI/CD](https://github.com/VishvaRaj382/midnight-level-4/actions/workflows/ci.yml/badge.svg)
 ![Product X Profile](https://img.shields.io/badge/Product%20X-%40vishva__raj98207-1DA1F2?style=for-the-badge&logo=twitter)
@@ -14,6 +15,7 @@
 
 ## 🌐 Product X Profile & Live Submission Links
 
+- **September 2026 Challenge Milestones**: [SEPTEMBER_CHALLENGE.md](file:///Users/VishwaRajSingh/Developer/midnight/midnight-level-4/SEPTEMBER_CHALLENGE.md)
 - **Official Product X Profile**: [https://x.com/vishva_raj98207](https://x.com/vishva_raj98207) (*Follow for launch updates & ZK tech posts*)
 - **Production Live App URL**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **Official Demo Video URL**: [Google Drive Video Recording](https://drive.google.com/file/d/1h3ULhBY5F2tK_Q0WEALzYY8S2zA8wPr2/view?usp=sharing)
