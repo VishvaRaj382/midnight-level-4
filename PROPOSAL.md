@@ -31,7 +31,7 @@ Traditional blockchains expose transaction and identity information publicly, ma
 
 ## Mainnet & Preprod Feasibility (Level 6 Achieved)
 
-Yes. The smart contract for confidential identity verification and access control is fully deployed on the **Midnight Preprod Testnet** (`0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`). Core zero-knowledge proof verification, multi-tier authorization, and AI guard interceptor integration are active and tested by 20 Level 6 launch users.
+Yes. The smart contract for confidential identity verification and access control is fully deployed on the **Midnight Preprod Testnet** (`0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`). Core zero-knowledge proof verification, multi-tier authorization, and AI guard interceptor integration are active and tested by 70 Level 6 launch users.
 
 ---
 

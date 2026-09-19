@@ -10,7 +10,15 @@ import { BrandKitView } from './components/BrandKitView';
 import { useMidnight } from './hooks/useMidnight';
 
 export function App() {
-  const [activeTab, setActiveTab] = useState<string>('guard');
+  const [activeTab, setActiveTab] = useState<string>(() => {
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '');
+      if (['guard', 'demo', 'feedback', 'users', 'brand'].includes(hash)) {
+        return hash;
+      }
+    }
+    return 'guard';
+  });
 
   const {
     wallet,

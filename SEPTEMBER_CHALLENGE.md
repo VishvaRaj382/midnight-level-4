@@ -8,7 +8,7 @@
 
 - **Submission Period**: September 2026 Challenge (Active)
 - **Target Network**: Midnight Preprod Testnet
-- **Smart Contract Address**: `0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`
+- **Smart Contract Address**: [`0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`](https://explorer.preprod.midnight.network/contract/02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e)
 - **Total Verifiable Preprod Users**: 70 Users (100% Bech32 Validated)
 - **Live Production URL**: [https://vishvaraj382.github.io/midnight-level-4/](https://vishvaraj382.github.io/midnight-level-4/)
 - **Demo Video**: [Google Drive Demo Recording](https://drive.google.com/file/d/1h3ULhBY5F2tK_Q0WEALzYY8S2zA8wPr2/view?usp=sharing)

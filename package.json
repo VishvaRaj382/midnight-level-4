@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build",
     "test": "vitest run",
     "verify-users": "tsx scripts/verify-users.ts",
-    "deploy": "node scripts/deploy.js",
+    "deploy": "tsx scripts/deploy.ts",
     "preview": "vite preview"
   },
   "dependencies": {

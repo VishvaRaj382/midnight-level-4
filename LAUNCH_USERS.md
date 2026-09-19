@@ -54,5 +54,5 @@ All users generated off-chain zero-knowledge proofs using the `verifyAndGrantAcc
 
 For all 70 wallet addresses:
 1. **Raw Passports / Student Cards / Corporate Credentials**: Maintained locally in browser localStorage / Lace Wallet witness sandbox.
-2. **API Secret Keys**: Encrypted in client memory; only zk-SNARK proof hashes submitted to Preprod contract `0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e`.
+2. **API Secret Keys**: Encrypted in client memory; only zk-SNARK proof hashes are computed locally (no verified on-chain contract exists for this build yet).
 3. **Revocation Rights**: Contract administrator can update status on-chain without compromise of historical zero-knowledge credentials.

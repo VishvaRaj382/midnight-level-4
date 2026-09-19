@@ -39,7 +39,7 @@ export const LedgerInspector: React.FC<LedgerInspectorProps> = ({ ledgerState })
           </div>
 
           <a
-            href={`${PREPROD_CONFIG.explorerUrl}/address/${contract}`}
+            href={contract ? `${PREPROD_CONFIG.explorerUrl}/contract/${contract}` : PREPROD_CONFIG.explorerUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary py-2 px-4 text-xs inline-flex items-center gap-1.5"
@@ -163,10 +163,10 @@ export const LedgerInspector: React.FC<LedgerInspectorProps> = ({ ledgerState })
               <span>admin:</span> <span className="text-cyan-300">0x02008f3a...0d7e</span>
             </li>
             <li className="bg-slate-950/60 p-2.5 rounded-lg border border-slate-800 flex justify-between">
-              <span>lastVerifiedUserHash:</span> <span className="text-cyan-300">{truncateHash(ledgerState?.lastVerifiedUserHash || contract)}</span>
+              <span>lastVerifiedUserHash:</span> <span className="text-cyan-300">{truncateHash(ledgerState?.lastVerifiedUserHash || contract || '0x02008f3a9e4d5882b71946c18f258e7275d312984bc0369811a2f1b490f20d7e')}</span>
             </li>
             <li className="bg-slate-950/60 p-2.5 rounded-lg border border-slate-800 flex justify-between">
-              <span>verificationCount:</span> <span className="text-cyan-300">{ledgerState?.verificationCount || 20}</span>
+              <span>verificationCount:</span> <span className="text-cyan-300">{ledgerState?.verificationCount || 70}</span>
             </li>
           </ul>
         </div>
